@@ -1,0 +1,7 @@
+project_id = "otyzuvxoblauleaknqvc"
+
+[functions.interview-prep]
+verify_jwt = false
+
+[functions.speech-recognition]
+verify_jwt = false

@@ -1,0 +1,26 @@
+-startup
+../Eclipse/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar
+--launcher.library
+../Eclipse/plugins/org.eclipse.equinox.launcher.cocoa.macosx.aarch64_1.2.1100.v20240722-2106
+-product
+org.springframework.boot.ide.branding.sts4
+--launcher.defaultAction
+openFile
+-configuration
+../../../../../Users/sashankdanda/.eclipse/org.eclipse.platform_4.34.0_1510004080_macosx_cocoa_aarch64/configuration
+-vm
+../Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.6.v20250130-0529/jre/lib/libjli.dylib
+-vmargs
+-XX:CompileCommand=exclude org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer::getExtendedRange
+-Dosgi.requiredJavaVersion=21
+-Dosgi.dataAreaRequiresExplicitInit=true
+-Dorg.slf4j.simpleLogger.defaultLogLevel=off
+-Dsun.java.command=SpringToolSuite4
+-Dp2.trustedAuthorities=https://download.eclipse.org,https://archive.eclipse.org,https://cdn.spring.io
+-Xms256m
+-Xmx2048m
+--illegal-access=permit
+--add-modules=ALL-SYSTEM
+-XstartOnFirstThread
+-Dorg.eclipse.swt.internal.carbon.smallFonts
+-Xdock:icon=../Resources/sts4.icns

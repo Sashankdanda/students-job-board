@@ -1,0 +1,49 @@
+0 verbose cli /opt/homebrew/Cellar/node@22/22.12.0/bin/node /opt/homebrew/opt/node@22/bin/npm
+1 info using npm@10.9.0
+2 info using node@v22.12.0
+3 silly config load:file:/opt/homebrew/Cellar/node@22/22.12.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/sashankdanda/Desktop/SEM-4/FSD/EndSemExam/.npmrc
+5 silly config load:file:/Users/sashankdanda/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm create vite@latest
+8 verbose argv "create" "vite@latest"
+9 verbose logfile logs-max:10 dir:/Users/sashankdanda/.npm/_logs/2025-05-10T07_52_00_226Z-
+10 verbose logfile /Users/sashankdanda/.npm/_logs/2025-05-10T07_52_00_226Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly logfile done cleaning log files
+14 http fetch GET 200 https://registry.npmjs.org/create-vite 195ms (cache updated)
+15 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+16 http fetch GET 200 https://registry.npmjs.org/npm 224ms
+17 silly idealTree buildDeps
+18 silly fetch manifest create-vite@6.5.0
+19 silly packumentCache full:https://registry.npmjs.org/create-vite cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/create-vite 126ms (cache updated)
+21 silly packumentCache full:https://registry.npmjs.org/create-vite set size:undefined disposed:false
+22 silly placeDep ROOT create-vite@6.5.0 REPLACE for:  want: 6.5.0
+23 silly reify mark retired [
+23 silly reify   '/Users/sashankdanda/.npm/_npx/1415fee72ff6294b/node_modules/create-vite',
+23 silly reify   '/Users/sashankdanda/.npm/_npx/1415fee72ff6294b/node_modules/.bin/create-vite',
+23 silly reify   '/Users/sashankdanda/.npm/_npx/1415fee72ff6294b/node_modules/.bin/cva'
+23 silly reify ]
+24 silly reify moves {
+24 silly reify   '/Users/sashankdanda/.npm/_npx/1415fee72ff6294b/node_modules/create-vite': '/Users/sashankdanda/.npm/_npx/1415fee72ff6294b/node_modules/.create-vite-HYokeqAt',
+24 silly reify   '/Users/sashankdanda/.npm/_npx/1415fee72ff6294b/node_modules/.bin/create-vite': '/Users/sashankdanda/.npm/_npx/1415fee72ff6294b/node_modules/.bin/.create-vite-rTC6PIa7',
+24 silly reify   '/Users/sashankdanda/.npm/_npx/1415fee72ff6294b/node_modules/.bin/cva': '/Users/sashankdanda/.npm/_npx/1415fee72ff6294b/node_modules/.bin/.cva-YMWqJ5gs'
+24 silly reify }
+25 silly audit bulk request { 'create-vite': [ '6.5.0' ] }
+26 silly tarball no local data for create-vite@https://registry.npmjs.org/create-vite/-/create-vite-6.5.0.tgz. Extracting by manifest.
+27 http fetch GET 200 https://registry.npmjs.org/create-vite/-/create-vite-6.5.0.tgz 136ms (cache miss)
+28 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 346ms
+29 silly audit report {}
+30 verbose cwd /Users/sashankdanda/Desktop/SEM-4/FSD/EndSemExam
+31 verbose os Darwin 24.4.0
+32 verbose node v22.12.0
+33 verbose npm  v10.9.0
+34 notice
+34 notice New [31mmajor[39m version of npm available! [31m10.9.0[39m -> [34m11.3.0[39m
+34 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.3.0[39m
+34 notice To update run: [4mnpm install -g npm@11.3.0[24m
+34 notice  { force: true, [Symbol(proc-log.meta)]: true }
+35 verbose exit 0
+36 info ok

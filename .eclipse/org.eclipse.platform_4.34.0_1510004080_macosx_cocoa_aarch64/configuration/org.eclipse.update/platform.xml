@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1740375902021" transient="false" shared_ur="file:configuration/org.eclipse.update/platform.xml" version="3.0">
+	<site updateable="true" url="file:/Users/sashankdanda/.eclipse/org.eclipse.platform_4.34.0_1510004080_macosx_cocoa_aarch64/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.eclipse.jst.web_core.feature" version="3.35.0.v202408150414" url="features/org.eclipse.jst.web_core.feature_3.35.0.v202408150414/">
+		</feature>
+		<feature id="org.eclipse.wst.web_ui.feature" version="3.36.0.v202409282004" url="features/org.eclipse.wst.web_ui.feature_3.36.0.v202409282004/" plugin-identifier="org.eclipse.wst.web.ui">
+		</feature>
+		<feature id="org.eclipse.wst.common_ui.feature" version="3.36.0.v202410202228" url="features/org.eclipse.wst.common_ui.feature_3.36.0.v202410202228/">
+		</feature>
+		<feature id="org.eclipse.jst.server_core.feature" version="3.4.700.v202405180431" url="features/org.eclipse.jst.server_core.feature_3.4.700.v202405180431/">
+		</feature>
+		<feature id="org.eclipse.jst.server_userdoc.feature" version="3.3.300.v201901310132" url="features/org.eclipse.jst.server_userdoc.feature_3.3.300.v201901310132/">
+		</feature>
+		<feature id="org.eclipse.wst.ws_userdoc.feature" version="3.1.501.v201909051708" url="features/org.eclipse.wst.ws_userdoc.feature_3.1.501.v201909051708/">
+		</feature>
+		<feature id="org.eclipse.wst.common_core.feature" version="3.36.0.v202409282003" url="features/org.eclipse.wst.common_core.feature_3.36.0.v202409282003/">
+		</feature>
+		<feature id="org.eclipse.jst.enterprise_core.feature" version="3.36.0.v202409282008" url="features/org.eclipse.jst.enterprise_core.feature_3.36.0.v202409282008/">
+		</feature>
+		<feature id="org.eclipse.jst.web_userdoc.feature" version="3.6.1.v202309190220" url="features/org.eclipse.jst.web_userdoc.feature_3.6.1.v202309190220/">
+		</feature>
+		<feature id="org.eclipse.wst.xml_ui.feature" version="3.36.0.v202409282004" url="features/org.eclipse.wst.xml_ui.feature_3.36.0.v202409282004/" plugin-identifier="org.eclipse.wst.xml.ui">
+		</feature>
+		<feature id="org.eclipse.wst.json_ui.feature" version="1.1.11.v202308160419" url="features/org.eclipse.wst.json_ui.feature_1.1.11.v202308160419/" plugin-identifier="org.eclipse.wst.json.ui">
+		</feature>
+		<feature id="org.eclipse.wst.json_core.feature" version="1.1.9.v202308160419" url="features/org.eclipse.wst.json_core.feature_1.1.9.v202308160419/">
+		</feature>
+		<feature id="org.eclipse.jst.enterprise_ui.feature" version="3.36.0.v202409282008" url="features/org.eclipse.jst.enterprise_ui.feature_3.36.0.v202409282008/" plugin-identifier="org.eclipse.jst.jee.ui">
+		</feature>
+		<feature id="org.eclipse.wst.web_js_support.feature" version="3.33.0.v202403030558" url="features/org.eclipse.wst.web_js_support.feature_3.33.0.v202403030558/">
+		</feature>
+		<feature id="org.eclipse.wst.xml_core.feature" version="3.36.0.v202409282004" url="features/org.eclipse.wst.xml_core.feature_3.36.0.v202409282004/">
+		</feature>
+		<feature id="org.eclipse.jst.enterprise_userdoc.feature" version="3.23.0.v202309190220" url="features/org.eclipse.jst.enterprise_userdoc.feature_3.23.0.v202309190220/">
+		</feature>
+		<feature id="org.eclipse.wst.ws_core.feature" version="3.35.0.v202408150414" url="features/org.eclipse.wst.ws_core.feature_3.35.0.v202408150414/">
+		</feature>
+		<feature id="org.eclipse.wst.web_userdoc.feature" version="3.18.0.v202004271556" url="features/org.eclipse.wst.web_userdoc.feature_3.18.0.v202004271556/">
+		</feature>
+		<feature id="org.eclipse.wst.web_core.feature" version="3.36.0.v202409282004" url="features/org.eclipse.wst.web_core.feature_3.36.0.v202409282004/">
+		</feature>
+		<feature id="org.eclipse.wst.xml_userdoc.feature" version="3.18.0.v202004271556" url="features/org.eclipse.wst.xml_userdoc.feature_3.18.0.v202004271556/">
+		</feature>
+		<feature id="org.eclipse.jst.server_ui.feature" version="3.4.500.v202401292331" url="features/org.eclipse.jst.server_ui.feature_3.4.500.v202401292331/">
+		</feature>
+		<feature id="org.eclipse.jst.web_js_support.feature" version="3.32.0.v202309190220" url="features/org.eclipse.jst.web_js_support.feature_3.32.0.v202309190220/">
+		</feature>
+		<feature id="org.eclipse.jst.web_ui.feature" version="3.35.0.v202408150414" url="features/org.eclipse.jst.web_ui.feature_3.35.0.v202408150414/">
+		</feature>
+		<feature id="org.eclipse.wst.ws_ui.feature" version="3.35.0.v202407071526" url="features/org.eclipse.wst.ws_ui.feature_3.35.0.v202407071526/">
+		</feature>
+	</site>
+</config>

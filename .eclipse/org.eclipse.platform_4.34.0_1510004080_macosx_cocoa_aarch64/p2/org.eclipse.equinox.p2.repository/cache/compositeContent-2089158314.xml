@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeMetadataRepository version='1.0.0'?>
+<repository name='Spring Tool Suite 4'
+    type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1739541973936'/>
+  </properties>
+  <children size='1'>
+    <child location='https://cdn.spring.io/spring-tools/release/TOOLS/sts4-language-server-integrations/2025-02-03'/>
+  </children>
+</repository>

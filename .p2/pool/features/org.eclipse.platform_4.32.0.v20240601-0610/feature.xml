@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.platform"
+      label="%featureName"
+      version="4.32.0.v20240601-0610"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.rcp"
+         version="4.32.0.v20240601-0610"/>
+
+   <includes
+         id="org.eclipse.equinox.p2.user.ui"
+         version="2.4.2400.v20240519-2013"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.help"
+         version="2.3.1800.v20240601-0610"/>
+
+   <plugin
+         id="org.apache.ant"
+         version="1.10.14.v20230922-1200"/>
+
+   <plugin
+         id="org.eclipse.ant.core"
+         version="3.7.400.v20240413-1529"/>
+
+   <plugin
+         id="com.jcraft.jsch"
+         version="0.1.55.v20230916-1400"/>
+
+   <plugin
+         id="org.eclipse.compare.core"
+         version="3.8.500.v20240524-2010"/>
+
+   <plugin
+         id="org.eclipse.compare"
+         version="3.11.0.v20240524-2010"/>
+
+   <plugin
+         id="org.eclipse.compare.win32"
+         os="win32"
+         version="1.3.400.v20240514-1716"/>
+
+   <plugin
+         id="org.eclipse.core.filebuffers"
+         version="3.8.300.v20240207-1054"/>
+
+   <plugin
+         id="org.eclipse.core.filesystem"
+         version="1.10.400.v20240426-1040"/>
+
+   <plugin
+         id="org.eclipse.core.net"
+         version="1.5.400.v20240413-1529"/>
+
+   <plugin
+         id="org.eclipse.core.net.linux"
+         os="linux"
+         version="1.1.200.v20240413-1529"/>
+
+   <plugin
+         id="org.eclipse.core.net.win32"
+         os="win32"
+         version="1.1.400.v20240414-0911"/>
+
+   <plugin
+         id="org.eclipse.core.resources"
+         version="3.20.200.v20240513-1323"/>
+
+   <plugin
+         id="org.eclipse.debug.core"
+         version="3.21.400.v20240415-0528"/>
+
+   <plugin
+         id="org.eclipse.debug.ui"
+         version="3.18.400.v20240516-0857"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.ide"
+         version="3.17.200.v20231201-1637"/>
+
+   <plugin
+         id="org.eclipse.equinox.event"
+         version="1.7.100.v20240321-1445"/>
+
+   <plugin
+         id="org.eclipse.ltk.core.refactoring"
+         version="3.14.400.v20240321-1245"/>
+
+   <plugin
+         id="org.eclipse.ltk.ui.refactoring"
+         version="3.13.400.v20240321-1245"/>
+
+   <plugin
+         id="org.eclipse.platform"
+         version="4.32.0.v20240601-0610"/>
+
+   <plugin
+         id="org.eclipse.platform.doc.user"
+         version="4.32.0.v20240529-0958"/>
+
+   <plugin
+         id="org.eclipse.search"
+         version="3.16.200.v20240426-0859"/>
+
+   <plugin
+         id="org.eclipse.text.quicksearch"
+         version="1.2.400.v20240321-1245"/>
+
+   <plugin
+         id="org.eclipse.team.core"
+         version="3.10.400.v20240413-1529"/>
+
+   <plugin
+         id="org.eclipse.team.ui"
+         version="3.10.400.v20240416-0654"/>
+
+   <plugin
+         id="org.eclipse.text"
+         version="3.14.100.v20240524-2010"/>
+
+   <plugin
+         id="org.eclipse.jface.text"
+         version="3.25.100.v20240524-2010"/>
+
+   <plugin
+         id="org.eclipse.jsch.core"
+         version="1.5.400.v20240413-1649"/>
+
+   <plugin
+         id="org.eclipse.jsch.ui"
+         version="1.5.400.v20240413-1529"/>
+
+   <plugin
+         id="org.eclipse.ui.console"
+         version="3.14.100.v20240429-1358"/>
+
+   <plugin
+         id="org.eclipse.ui.intro"
+         version="3.7.400.v20240414-0828"/>
+
+   <plugin
+         id="org.eclipse.ui.intro.universal"
+         version="3.5.400.v20240414-1916"/>
+
+   <plugin
+         id="org.eclipse.ui.cheatsheets"
+         version="3.8.400.v20240414-1916"/>
+
+   <plugin
+         id="org.eclipse.ui.browser"
+         version="3.8.300.v20240524-2010"/>
+
+   <plugin
+         id="org.eclipse.ui.genericeditor"
+         version="1.3.400.v20240511-1105"/>
+
+   <plugin
+         id="org.eclipse.ui.monitoring"
+         version="1.3.300.v20240321-1245"/>
+
+   <plugin
+         id="org.eclipse.ui.navigator"
+         version="3.12.400.v20240424-0956"/>
+
+   <plugin
+         id="org.eclipse.ui.navigator.resources"
+         version="3.9.300.v20240506-0929"/>
+
+   <plugin
+         id="org.eclipse.ui.net"
+         version="1.5.400.v20240413-1529"/>
+
+   <plugin
+         id="org.eclipse.ui.workbench.texteditor"
+         version="3.17.400.v20240524-2010"/>
+
+   <plugin
+         id="org.eclipse.ui.views"
+         version="3.12.300.v20240524-2010"/>
+
+   <plugin
+         id="org.eclipse.ui.editors"
+         version="3.17.300.v20240524-2010"/>
+
+   <plugin
+         id="org.eclipse.ui.externaltools"
+         version="3.6.400.v20240416-0654"/>
+
+   <plugin
+         id="org.eclipse.ui.ide"
+         version="3.22.200.v20240524-2010"/>
+
+   <plugin
+         id="org.eclipse.ui.ide.application"
+         version="1.5.400.v20240416-0658"/>
+
+   <plugin
+         id="org.eclipse.ui.win32"
+         ws="win32"
+         version="3.5.300.v20240524-2010"/>
+
+   <plugin
+         id="org.eclipse.core.filesystem.linux.x86_64"
+         os="linux"
+         arch="x86_64"
+         version="1.2.400.v20220812-1420"/>
+
+   <plugin
+         id="org.eclipse.core.filesystem.macosx"
+         os="macosx"
+         version="1.3.400.v20220812-1420"/>
+
+   <plugin
+         id="org.eclipse.core.resources.win32.x86_64"
+         os="win32"
+         arch="x86_64"
+         version="3.5.500.v20220812-1420"/>
+
+   <plugin
+         id="org.eclipse.core.filesystem.win32.x86_64"
+         os="win32"
+         arch="x86_64"
+         version="1.4.300.v20220812-1420"/>
+
+   <plugin
+         id="org.eclipse.core.filesystem.linux.ppc64le"
+         os="linux"
+         arch="ppc64le"
+         version="1.4.200.v20220812-1420"/>
+
+   <plugin
+         id="org.eclipse.core.filesystem.linux.aarch64"
+         os="linux"
+         arch="aarch64"
+         version="1.4.200.v20220812-1420"/>
+
+   <plugin
+         id="org.eclipse.core.variables"
+         version="3.6.400.v20240413-1529"/>
+
+   <plugin
+         id="org.eclipse.ui.forms"
+         version="3.13.300.v20240424-0956"/>
+
+   <plugin
+         id="org.eclipse.ui.views.properties.tabbed"
+         version="3.10.300.v20240424-0956"/>
+
+   <plugin
+         id="org.eclipse.equinox.security"
+         version="1.4.300.v20240419-2334"/>
+
+   <plugin
+         id="org.eclipse.equinox.security.ui"
+         version="1.4.300.v20240513-1104"/>
+
+   <plugin
+         id="org.eclipse.equinox.security.win32"
+         os="win32"
+         version="1.3.0.v20240419-2334"/>
+
+   <plugin
+         id="org.eclipse.equinox.security.macosx"
+         os="macosx"
+         version="1.102.300.v20240419-2334"/>
+
+   <plugin
+         id="org.eclipse.equinox.security.linux"
+         os="linux"
+         version="1.1.300.v20240419-2334"/>
+
+   <plugin
+         id="org.eclipse.core.externaltools"
+         version="1.3.400.v20240413-1529"/>
+
+   <plugin
+         id="org.eclipse.ui.themes"
+         version="1.2.2400.v20240213-1133"/>
+
+   <plugin
+         id="org.eclipse.core.runtime"
+         version="3.31.100.v20240524-2010"/>
+
+   <plugin
+         id="org.eclipse.ui.intro.quicklinks"
+         version="1.2.400.v20240414-1916"/>
+
+   <plugin
+         id="org.eclipse.team.genericeditor.diff.extension"
+         version="1.2.400.v20240413-1529"/>
+
+   <plugin
+         id="org.eclipse.urischeme"
+         version="1.3.300.v20240424-0956"/>
+
+   <plugin
+         id="org.eclipse.ui.views.log"
+         version="1.4.400.v20240424-0956"/>
+
+   <plugin
+         id="org.eclipse.debug.ui.launchview"
+         version="1.1.500.v20240415-0528"/>
+
+</feature>
